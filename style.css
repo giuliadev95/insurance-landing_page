@@ -195,6 +195,10 @@ h3 {
 }
 
 
+/* Attribution section */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 /*  Active state for mobile menu icons, with hover transormation.  */
 
 .icon-open-hamburger {
