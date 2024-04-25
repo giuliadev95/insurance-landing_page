@@ -4,7 +4,7 @@ It's a solution to the [Insure landing page challenge on Frontend Mentor](https:
 
 ## live project
 
-![preview](https://github.com/GiuliaDeveloper/Insurance-landing-page-coding-challenge/assets/102733762/8691b87a-8db6-4c82-9ef3-162f0764d6f5)
+![preview][https://github.com/GiuliaDeveloper/Insurance-landing-page-coding-challenge/assets/102733762/8691b87a-8db6-4c82-9ef3-162f0764d6f5] (https://github.com/GiuliaDeveloper/Insurance-landing-page-coding-challenge/assets/102733762/8691b87a-8db6-4c82-9ef3-162f0764d6f5)
 
 See the project live: [https://insurance-fm-landingpage.netlify.app/#](https://insurance-fm-landingpage.netlify.app/#)
 
