@@ -24,5 +24,3 @@ window.addEventListener('resize', replacePattern);
 
 /*  bg-pattern-intro-right-mobile >  bg-pattern-intro-right-desktop 
     on media (min-width:1024px) */ 
-
-    -msg to Test if commit goes well--
