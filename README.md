@@ -3,8 +3,8 @@ This project is a landing page, built with HTML, CSS, and JavaScript.
 It's a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## live project
-Preview
-![(./images/preview.png)]
+
+![preview](https://github.com/GiuliaDeveloper/Insurance-landing-page-coding-challenge/assets/102733762/8691b87a-8db6-4c82-9ef3-162f0764d6f5)
 
 See the project live: [https://insurance-fm-landingpage.netlify.app/#](https://insurance-fm-landingpage.netlify.app/#)
 
