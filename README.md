@@ -2,34 +2,34 @@
 This project is a landing page, built with HTML, CSS, and JavaScript.
 It's a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## live project
+## Live project
 
 ![preview](./images/preview.png)
 
 See the project live: [https://insurance-fm-landingpage.netlify.app/#](https://insurance-fm-landingpage.netlify.app/#)
 
 
-## Work in progress
+## Workflow
 
-As mentioned above, I'm still working with the coding and design: I followed the mobile first approach, so:
+I'm currently working on the code and the design, with a mobile first approach:
 
-- I made the mobile design entirely: but the interactive hamburger menu needs to be added.
+- The mobile design has been entirely made: the interactive hamburger menu will be added at the end, as a JavaScript separated task.
 
 - Desktop design is being completed, through media queries applied to mobile design.
 
-- The tablet design still needs to be designed (since it didn't come with the starter kit) and then built. This will be a great opportunity to learn the basics of web design and I can't wait to get started on this task!
+- The tablet design still needs to be designed (since it didn't come with the starter kit) and coded. This will be an opportunity to learn the basics of web design and adapt a mobile layout into a tablet one.
 
 
-## Preciouse CSS I've learnt
+## Important CSS
 
-- Flexbox layout model. It helped my to give a proper orientation and order to the body and the sections in the mobile design. Additionally, I have found that the responsiveness suits this layout well and will continue to use it.
+- Flexbox layout model. It helped me to give a proper orientation and order to the body and the sections in the mobile design. Additionally, I have found this layout to be a good starter point to obtain responsiveness.
 
-snippet used to style my hero-section:
+How I styled the hero-section for smartphones:
 
 ```css
 #hero-section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -54,4 +54,4 @@ example:
 }
 ```
 
-- I'll keep updating this README.md in future commits, along with the code of the project itself.
+- I'll keep updating this README.md along with the code.
