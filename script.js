@@ -22,5 +22,6 @@ replacePattern();
 window.addEventListener('resize', replacePattern);
 
 
-/*  bg-pattern-intro-right-mobile >  bg-pattern-intro-right-desktop 
-    on media (min-width:1024px) */ 
+/* bg-pattern-how-we-work-mobile.svg > bg-pattern-how-we-work-desktop.svg
+on media (min-width:1024px) */ 
+
