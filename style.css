@@ -1,7 +1,4 @@
-/*  
-----------------------------------------------------------------------------------------------------------
-MOBILE S, M
-*/
+/*  Small and medium smartphones */
 
 :root {
 
@@ -10,7 +7,6 @@ MOBILE S, M
     --dark-grayshi-violet:hsl(273, 4%, 51%);
     --very-light-gray:hsl(0, 0%, 98%);
 }
-
 
 
 * {
@@ -23,7 +19,6 @@ MOBILE S, M
     scroll-behavior: smooth;
     
 }
-
 
 
 body {
@@ -51,8 +46,6 @@ body {
         padding-left: 0px;
         padding-right: 0px;
         margin: 0px 0px;
-       /* border: 1px solid red; */
-
     }
 
 
@@ -63,7 +56,6 @@ body {
     
 button {
 
-       /* font-size: 1rem; */
         font-size: calc(1rem + 0.5vw);
         text-transform: uppercase;
         font-family: "Karla", sans-serif;
@@ -77,7 +69,6 @@ button {
         padding:0.375rem 1.125rem ;
     
         transition: all 0.3s ease;
-
     }   
 
 
@@ -104,29 +95,20 @@ a {
 
 p {
 
-    /*font-size: 1rem;*/
     font-family: "Karla", sans-serif;
-
     word-spacing: 0.16rem;
-
     font-size: calc(1rem + 0.5vw);
 }
 
 
 h1 {
 
-    
     font-family:"DM Serif Display", serif;
     font-weight: 400;
-
     word-spacing: 0.16em;
-
     color: white;
-
-    /* font-size: 2rem; */
     font-size: calc(2rem + 0.5vw);
     margin: .67em 0 ;
-
     }
 
 
@@ -134,30 +116,25 @@ h1 {
 
     font-family: "DM Serif Display", serif;
     font-weight: 400;
-    /* font-size: 2rem; */
     font-size: calc(1.8rem + 0.5vw);
- 
     margin: .75em 0
-
     }
 
 
 h3 {
-    
-    /* font-size: 1.5rem; */
+
     font-size: calc(1.5rem + 0.5vw);
     font-family: "DM Serif Display", serif;
     font-weight: 400;
-
-
    }
 
    
 .footer-items-list a {
 
     font-size: calc(1rem + 0.5vw);
-
 }
+
+
 
 /* .page-wrapper */
 
@@ -166,6 +143,9 @@ h3 {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+
+
 /*  nav  */
 
  #navbar {
@@ -173,7 +153,7 @@ h3 {
     }
 
 
-#navbar ul{
+#navbar ul {
 
         display: flex;
         flex-direction: row;
@@ -188,15 +168,28 @@ h3 {
     transition: all 0.3s ease;
 }
 
+
 .logo:hover {
 
     cursor: pointer;
 }
 
 
+
 /* Attribution section */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+.attribution { 
+
+    font-size: 11px; text-align: center; 
+}
+
+
+.attribution a { 
+
+    color: hsl(228, 45%, 44%); 
+}
+
+
 
 /*  Active state for mobile menu icons, with hover transormation.  */
 
@@ -239,7 +232,9 @@ h3 {
 }
 
 
+
 /*  Hero section  */
+
 #hero-section {
     
     display: flex;
@@ -273,19 +268,16 @@ img {
 }
 
 .hero-text-container {
-    /*padding: 6.3125rem 1.0625rem;*/
+
     padding: 0px;
     margin: 0;
     min-width: 100%;
-
     display: flex;
     flex-direction: column;
-
     background-color: var(--dark-violet);
     background-image: url(../images/bg-pattern-intro-left-mobile.svg);
     background-position: top left;
     background-repeat: no-repeat;
-   /* background-size: 10rem; */
    background-size:40%;
 }
 
@@ -296,9 +288,9 @@ img {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /*  margin: 0 1rem;  */
     margin: 0 1rem;
 }
+
 
 .hero-upper-divider {
  display:none;
@@ -308,7 +300,6 @@ img {
 .hero-paragraph {
 
    color: white;
-
 }
 
 
@@ -316,19 +307,17 @@ img {
     
     position: relative;
     z-index: 2;
-    
     width: 26%;
     height: auto;
-
     margin-left: 75%;
     margin-top: -90px;
-
 }
 
 
 .bg-patter-intro-right-desktop-1 {
     display: none;
 }
+
 
 
 /*  Main section  */
@@ -340,11 +329,11 @@ img {
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
-
 }
 
 
 .main-divider-container {
+
     width: 100%;
 }
 
@@ -355,16 +344,12 @@ img {
     display: block;
     height: 1px;
     color:hsl(256, 26%, 20%);
-
 }
 
 
 .main-h2 {
 
     color: var(--very-dark-violet);
-    
-   
-
 }
 
 
@@ -397,61 +382,58 @@ img {
  }
 
 
+
 /*  "More" section  */
+
  #more {
 
     padding: 2rem 1.30rem;
-
     background-color: var(--dark-violet);
     color: white;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
     background-position: top right;
     background-repeat: no-repeat;
     background-size:40%;
-
  }
+
+
 
  /*  Contact section  */
 
  #contact {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     background-image: url(../images/bg-pattern-footer-mobile.svg);
     background-size: contain;
     background-repeat: no-repeat;
-
     margin-bottom: 1.5rem;
-
  }
 
 
  #contact .logo {
     margin: 1rem 0;
-
  }
+
+
+
 /*  Social buttons  */
 
 li.social-icon svg {
 
-    width: 1.5em;
-    
+    width: 1.5em; 
 }
 
 
 .social-icon svg:hover {
 
-    cursor: pointer;
-
-    
+    cursor: pointer; 
 }
 
 
@@ -459,11 +441,10 @@ li.social-icon svg {
 
     display: flex;
     flex-direction: row;
-
     align-items: center;
     justify-content: space-between;
-
 }
+
 
 
 /* hr .footer-divider */
@@ -471,12 +452,11 @@ li.social-icon svg {
 hr.footer-divider {
     min-width: 100%;
     display: block;
-    text-align: center;
-    
+    text-align: center; 
     height: 1px;
-    color:hsl(256, 26%, 20%);
-    
+    color:hsl(256, 26%, 20%); 
 }
+
 
 
 /*  Footer section  */
@@ -487,16 +467,14 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
 font-family: "Karla", sans-serif;
 font-size: 1rem;
-
 text-transform: uppercase;
-
 }
 
 
 .footer-items-list {
+
     margin-top: 0rem;
 }
 
@@ -504,7 +482,6 @@ text-transform: uppercase;
 .footer-title {
 
     color: var(--dark-grayshi-violet);
-
 }
 
 
@@ -513,19 +490,19 @@ text-transform: uppercase;
     word-spacing: 0.16rem;
 
     color: var(--dark-violet);
-
 }
 
 
 #footer li {
 
-    margin: 2rem 0 0 0;
+    margin: 1rem 0;
     font-weight: 700;
 }
 
 
-@media  screen and (min-width: 480px) {
-    /* Style for smartphones, Android phones, landscape iPhone */
+/* Hero-section background for screens up to 426px */
+
+@media  screen and (min-width: 426px) {
 
        #hero-image{
         content: url(./images/image-intro-desktop.jpg);
@@ -534,83 +511,21 @@ text-transform: uppercase;
 
 
 
-/*
-@media only screen and (orientation: landscape) and (max-width: 480px) {
-    /* Styles for landscape orientation 
+/*  Media query: navigation menu desappears on smartphones and tablets  */
 
-    #header {
+   @media (max-width:1024px) {
 
-        background-color: white;
-        position: fixed;
-        height: 17%;
-    }
+        #navbar .desktop-navmenu {
 
-
-    body {
-        margin-top: 0px;
-    }
-
-
-    #hero-image {
-        height: 50%;
-        display: none;
-    }
-
-    #hero-section {
-
-        padding: 0 3rem;
-    }
-
-
-    .hero-bottom-pattern {
-    
-        display: none;
-    }
-
-
-    hr.divider {
-
-        display: none;
-    }
-
-
-    #only-on-portrait {
-
-        display: none;
-    }
-
-
-    .hero-paragraph, .main-paragraph  {
-
-        padding: 0 1rem;
-        text-align: center;
-    }
-
-  
-    #contact {
-        background-size: cover;
-    }
-    }
-  
-*/
-
-
-
-   @media (max-width:992px){
-    /*  Media query that makes the desktop navigation menu 
-        desappear on smartphones and tablets  */
-
-    #navbar .desktop-navmenu {
-        
-        display: none
-        
-        }
+            display: none 
+            }
    }
 
 
 
+   /*  Media query: style for laptops up to 1440px  */
+
     @media (min-width: 1025px) {
-        /*  Media query: style for desktop and large screen  */
         
         /*navbar */
         #navbar {
@@ -705,7 +620,6 @@ text-transform: uppercase;
             display: inline;
             position: absolute;
             z-index: 2;
-            /* margin-top: 16.25rem; */
             margin-top: 15rem;
             right: 5rem;
             padding-right: 2rem;
@@ -715,15 +629,12 @@ text-transform: uppercase;
         }
 
 
-
         .hero-image-container > img {
             width: fit-content;
            
         }
 
        
-
-
         .hero-text-container {
 
             order: 1;
@@ -837,21 +748,6 @@ text-transform: uppercase;
         }
 
         .bg-patter-intro-right-desktop-1 {
-
-            /*
-            display: block;
-            top: -50.8rem;
-            z-index: 3;
-            right: -1px;
-            position: relative;
-            width: 25rem;
-            float: right;
-            height: 21.56rem;
-            background-image: url(./images/bg-pattern-intro-right-desktop.svg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            */
-
 
             display: block;
             top: -50.8rem;
@@ -1022,24 +918,22 @@ text-transform: uppercase;
             display: none;
         }
 
-   /* #footer-menu {
+    #footer-menu {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: flex-start;
-        
-    }
-    */
-
-    #footer-menu {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-content: center;
     }
 
     #footer-menu ul {
-        padding-left: 7rem;
+        padding-left: 10rem;
+        text-align: left;
+        
+    }
+
+    #footer-menu ul:first-of-type {
+        padding-left: 0;
+
     }
 
     #footer-menu a {
@@ -1051,20 +945,6 @@ text-transform: uppercase;
     }
 
 
-    /*  Media query for navmenu font-size on small desktop and screen 
-    @media (min-width:768px) and (max-width:821px) {
-        .desktop-navmenu li, 
-        .desktop-navmenu button {
-            padding: 0 0.5rem;
-            
-            font-family: "Karla", sans-serif;
-            font-size: calc(0.8rem + 0.5vw);
-            text-transform: uppercase;
-            
-        }
-
-    }
-         */
 
     
 
