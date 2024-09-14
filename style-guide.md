@@ -23,6 +23,15 @@ The designs were created to the following widths:
 - Very Light Gray: hsl(0, 0%, 98%)
 
 ## Typography
+IMPAGINAZIONE COMPLEMENTARE
+- h2: Very Dark Violet hsl(256, 26%, 20%);
++
+- icone: Grayish Blue hsl(216, 30%, 68%);
++
+- Paragrafi testo: Dark Grayish Violethsl(273, 4%, 51%);
+
+- <a> footer menu: Dark Violet;
+
 
 ### Body Copy
 
