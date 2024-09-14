@@ -528,6 +528,10 @@ text-transform: uppercase;
        #hero-image {
         content: url(./images/image-intro-tablet.jpg);
        }
+
+       .hero-text-container, #more {
+        background-color: #533A71;
+       }
    }
 
 
