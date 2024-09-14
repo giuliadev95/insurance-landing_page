@@ -514,7 +514,7 @@ text-transform: uppercase;
    
    /* Hero-section background for tablets from 426px onwards. */
    
-   @media  screen and (min-width: 426px) {
+   @media screen and (min-width: 426px) {
    
           #hero-image{
            content: url(./images/image-intro-desktop.jpg);
@@ -522,9 +522,19 @@ text-transform: uppercase;
    }
 
 
-   /*  Style for laptops (1220px up to 1440px)  */
+   /* Style for small tablets up to large ones (600px - 1024px) */
+   @media screen and (max-width: 1024px) and (min-width: 600px) {
 
-    @media (min-width: 1025px) {
+       #hero-image {
+        content: url(./images/image-intro-tablet.jpg);
+       }
+   }
+
+
+
+   /*  Style for laptops (1225px up to 1440px)  */
+
+    @media screen and (min-width: 1025px) {
         
         /*navbar */
         #navbar {
