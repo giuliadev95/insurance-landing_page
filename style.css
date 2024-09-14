@@ -314,7 +314,7 @@ img {
 }
 
 
-.bg-patter-intro-right-desktop-1 {
+.bg-pattern-intro-right-desktop-1 {
     display: none;
 }
 
@@ -510,16 +510,6 @@ text-transform: uppercase;
             }
    }
 
-   
-   
-   /* Hero-section background for tablets from 426px onwards. */
-   
-   @media screen and (min-width: 426px) {
-   
-          #hero-image{
-           content: url(./images/image-intro-desktop.jpg);
-          }
-   }
 
 
    /* Style for small tablets up to large ones (600px - 1024px) */
@@ -539,6 +529,7 @@ text-transform: uppercase;
 
        #mobile-pattern {
         width: 96%;
+        content: url(./images/bg-pattern-intro-right-mobile.svg);
        }
 
        #more {
@@ -639,6 +630,11 @@ text-transform: uppercase;
 
         /* hero-section */
 
+        #hero-image{
+            content: url(./images/image-intro-desktop.jpg);
+           }
+
+
         .hero-image-container {
 
             order: 2;
@@ -688,7 +684,6 @@ text-transform: uppercase;
 
             display: block;
             width: 6rem;
-            /* color: red; */
             color: white;
             margin-top:2.11rem;
         }
@@ -761,7 +756,7 @@ text-transform: uppercase;
             transform: none;  
         }
 
-        .bg-patter-intro-right-desktop-1 {
+        .bg-pattern-intro-right-desktop-1 {
 
             display: block;
             top: -50.8rem;
@@ -985,7 +980,7 @@ text-transform: uppercase;
     }
 
     
-    @media screen and (max-width: 1150px) and (min-width:1025px){
+    @media screen and (min-width:1025px) and (max-width: 1150px){
 
         .hero-list button {
             margin: -1rem .1rem;
