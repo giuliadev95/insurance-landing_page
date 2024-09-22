@@ -1,4 +1,4 @@
-/* Mobile menu */ 
+/* Mobile menu 
 // const icon to open hamburger
 const hamburgerOpenIcon = document.getElementById("open-hamburger"); 
 
@@ -30,17 +30,19 @@ hamburgerOpenIcon.addEventListener("click", function callMenu() {
     hamburgerCloseicon.style.display = 'none'; // Nascondi l'icona di chiusura
   });
 
-// Make the menu and the close icon desappear also when a menu link is clicked
-const menuLinks = document.querySelectorAll('#mobile-hamburger-menu li a');
-
-menuLinks.forEach(link => {
-  link.addEventListener('click', function() {
-    hamburgerMenu.classList.remove('show');  // Hide the menu
-    hamburgerOpenIcon.style.display = 'block'; // Show the open icon
-    hamburgerCloseicon.style.display = 'none'; // Hide the close icon
-});
-});
-
+  
+  // Make the menu and the close icon desappear also when a menu link is clicked
+  const menuLinks = document.querySelectorAll('#mobile-hamburger-menu li a');
+  
+  menuLinks.forEach(link => {
+      link.addEventListener('click', function() {
+          hamburgerMenu.classList.remove('show');  // Hide the menu
+          hamburgerOpenIcon.style.display = 'block'; // Show the open icon
+          hamburgerCloseicon.style.display = 'none'; // Hide the close icon
+        });
+    });
+    
+    */
 
 
 /* bg-pattern-intro-right-mobile > bg-pattern-intro-left-desktop

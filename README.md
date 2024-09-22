@@ -2,6 +2,13 @@
 This project is a static landing page, built with HTML, CSS, and JavaScript.
 It's a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+
+# TABLE OF CONTENT
+- [Live project](#live-project)
+- [Workflow](#workflow)
+- [Code snippets](#what-i-learnt-code-snippets)
+
+
 ## Live project
 
 ![preview](./images/preview.png)
@@ -10,21 +17,16 @@ See the project live: [https://insurance-fm-landingpage.netlify.app/#](https://i
 
 
 ## Workflow
-
-I'm currently working on the code and the design, with a mobile first approach:
-
-- The mobile design has been entirely made: the interactive hamburger menu will be added at the end, as a JavaScript separated task.
-
-- Desktop design is being completed, through media queries applied to mobile design.
-
-- The tablet design still needs to be designed (since it didn't come with the starter kit) and coded. This will be an opportunity to learn the basics of web design and adapt a mobile layout into a tablet one.
+- Mobile-first approach
+- Adapt the design for tablets through media queries, changing the hero image and the brand color on my design taste, as an optimized image for tablets wasn't provided by the starter kit.
+- Adapt the mobile design for desktops through media queries, and by using the images provided with the starter kit.
 
 
-## Important CSS
+## What I learnt (code snippets)
 
-- Flexbox layout model. It helped me to give a proper orientation and order to the body and the sections in the mobile design. Additionally, I have found this layout to be a good starter point to obtain responsiveness.
+1) I made practice with Flexbox, it helped me to give a proper orientation and order to the body and its sections in the mobile design. Additionally, I have found this layout to be a good starter point to obtain responsiveness.
 
-How I styled the hero-section for smartphones:
+Here's how I styled the hero-section for smartphones:
 
 ```css
 #hero-section {
@@ -34,6 +36,7 @@ How I styled the hero-section for smartphones:
   justify-content: center;
 }
 ```
+
 
 - 'Position: relative; z-index: 2'. I used the position-relative property to create a multi-layered layout, where certain elements needed to be visually layered on top of others.
 
@@ -54,4 +57,28 @@ example:
 }
 ```
 
-- I'll keep updating this README.md along with the code.
+
+- I used JavaScript to replace an image in the DOM with another, thanks to the window.innerWidth property.
+I made some practice with DOM manipulation: every time I had to change a certain pattern or image used in the mobile design, with others mandatory for desktop design, I used JavaScript.
+This is the snippet of the function I used, I learnt a lotabout how to dynamically change DOM elements based on the window size.
+
+``` JavaScript 
+var mobilePattern = document.getElementById('mobile-pattern');
+
+function replacePattern() {
+
+    var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+
+    if(windowWidth >=1024) {
+
+        mobilePattern.src='./images/bg-pattern-intro-left-desktop.svg';
+    }
+    else {
+
+        mobilePattern.src= './images/bg-pattern-intro-right-mobile.svg';
+    }
+}
+
+replacePattern();
+window.addEventListener('resize', replacePattern);
+``````
